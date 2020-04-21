@@ -16,8 +16,8 @@ h1
     margin: 0;
     color: white;
     padding: 10px 20px;
-    font-size: 30px;
-    font-weight: normal;
+    font-size: 3vw;
+    font-weight: bold;
 }
 ul
 {
@@ -39,6 +39,7 @@ li
     height: 40px;
     line-height: 40px;
     color: #666;
+    font-size: 1.3vw;
 }
 li:nth-child(2n)
 {
@@ -46,13 +47,15 @@ li:nth-child(2n)
 }
 input
 {
-    font-size: 18px;
+    font-size: 2vw;
     width: 100%;
     background: #f7f7f7;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
     color: #2980b9;
-    border: 3px solid rgba(0, 0, 0, 0)
+    border: 3px solid rgba(0, 0, 0, 0);
+    font-style: italic;
+
 }
 input:focus
 {
